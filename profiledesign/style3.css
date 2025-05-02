@@ -1,0 +1,125 @@
+body{
+    background-color: bisque;
+}
+
+.navbar{
+    background-color: rgb(60, 33, 0);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.box1{
+    padding-top: 5px;
+    background-color: rgb(252, 202, 138);
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    margin: 50 30pc 50px 30px;
+}
+.Img{
+    transition: transform 0.3s ease;
+}
+
+.Img:hover{
+    transform: scale(1.1);
+}
+
+.box2 {
+    margin: 40px auto;
+    background-color: rgb(252, 202, 138);
+    width: 1000px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+.box3{
+    background-color: rgb(252, 202, 138);
+    margin: 30px 20px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box5{
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 33, 0);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: font-size 0.5s ease;
+    border: 1px solid rgb(60, 33, 0);
+}
+
+.box5:hover {
+    font-size: 20px;
+}
+
+.box6 {
+    margin: 15px;
+    background-color: rgb(252, 202, 138);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.phone{
+    text-align: center;
+    padding: 5px 5x;
+    margin: 10px 500px;
+    background-color: rgb(252, 202, 138);
+}
+
+.footer{
+    background-color: rgb(60, 33, 0);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer a{
+    background-color: rgb(255, 204, 128);
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: bisque;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: bisque;
+}
